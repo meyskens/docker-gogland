@@ -3,6 +3,7 @@ FROM maartje/desktop-base
 ENV version=172.3757.46
 ENV GO_VERSION 1.9
 ENV GOPATH /root/go
+ENV GOROOT /usr/local/go
 
 # add git and curl
 RUN apt-get update && apt-get install -y git curl
