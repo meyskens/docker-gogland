@@ -1,6 +1,6 @@
 FROM maartje/desktop-base
 
-ENV version=172.3757.46
+ENV version=172.3968.45
 ENV GO_VERSION 1.9
 ENV GOPATH /root/go
 ENV GOROOT /usr/local/go
